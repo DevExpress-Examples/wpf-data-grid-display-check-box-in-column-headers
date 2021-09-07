@@ -25,34 +25,34 @@ Imports DevExpress.Xpf.Editors
 Imports DevExpress.Xpf.Grid
 
 Namespace DXGrid_ShowCheckBoxInColumnHeaders
-    Partial Public Class Window1
-        Inherits Window
+	Partial Public Class Window1
+		Inherits Window
 
-        Public Sub New()
-            InitializeComponent()
-            CreateList()
-            DataContext = Me
+		Public Sub New()
+			InitializeComponent()
+			CreateList()
+			DataContext = Me
 
-        End Sub
-        Public Property ListPerson() As List(Of Person)
-        Private Sub CreateList()
-            ListPerson = New List(Of Person)()
-            For i As Integer = 0 To 9
-                ListPerson.Add(New Person(i))
-            Next i
-        End Sub
-    End Class
+		End Sub
+		Public Property ListPerson() As List(Of Person)
+		Private Sub CreateList()
+			ListPerson = New List(Of Person)()
+			For i As Integer = 0 To 9
+				ListPerson.Add(New Person(i))
+			Next i
+		End Sub
+	End Class
 
-    Public Class Person
-        Public Sub New(ByVal i As Integer)
-            FirstName = "FirstName" & i
-            LastName = "LastName" & i
-            Age = i * 10
-        End Sub
-        Public Property FirstName() As String
-        Public Property LastName() As String
-        Public Property Age() As Integer
+	Public Class Person
+		Public Sub New(ByVal i As Integer)
+			FirstName = "FirstName" & i
+			LastName = "LastName" & i
+			Age = i * 10
+		End Sub
+		Public Property FirstName() As String
+		Public Property LastName() As String
+		Public Property Age() As Integer
 
 
-    End Class
+	End Class
 End Namespace
