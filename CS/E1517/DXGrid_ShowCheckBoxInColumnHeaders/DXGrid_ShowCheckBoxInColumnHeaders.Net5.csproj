@@ -1,0 +1,49 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net5.0-windows</TargetFramework>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>DXGrid_ShowCheckBoxInColumnHeaders</RootNamespace>
+    <AssemblyName>DXGrid_ShowCheckBoxInColumnHeaders</AssemblyName>
+    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+    <UseWindowsForms>true</UseWindowsForms>
+    <UseWPF>true</UseWPF>
+    <Platforms>x86;AnyCPU</Platforms>
+    <CopyLocalLockFileAssemblies>false</CopyLocalLockFileAssemblies>
+    <DefaultItemExcludes>obj*/**</DefaultItemExcludes>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Update="nwindDataSet.xsc">
+      <DependentUpon>nwindDataSet.xsd</DependentUpon>
+    </None>
+    <None Update="nwindDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>nwindDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Update="nwindDataSet.xss">
+      <DependentUpon>nwindDataSet.xsd</DependentUpon>
+    </None>
+    <AppDesigner Include="Properties\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="nwind.mdb">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="DevExpress.Data" Version="21.1.*-*" />
+    <PackageReference Include="DevExpress.Data.Desktop" Version="21.1.*-*" />
+    <PackageReference Include="DevExpress.Mvvm" Version="21.1.*-*" />
+    <PackageReference Include="DevExpress.Office.Core" Version="21.1.*-*" />
+    <PackageReference Include="DevExpress.Pdf.Core" Version="21.1.*-*" />
+    <PackageReference Include="DevExpress.Printing.Core" Version="21.1.*-*" />
+    <PackageReference Include="DevExpress.RichEdit.Core" Version="21.1.*-*" />
+    <PackageReference Include="DevExpress.RichEdit.Export" Version="21.1.*-*" />
+    <PackageReference Include="DevExpress.Wpf.Core" Version="21.1.*-*" />
+    <PackageReference Include="DevExpress.Wpf.Grid.Core" Version="21.1.*-*" />
+    <PackageReference Include="DevExpress.Wpf.Printing" Version="21.1.*-*" />
+    <PackageReference Include="DevExpress.Wpf.Reporting" Version="21.1.*-*" />
+    <PackageReference Include="DevExpress.Wpf.Themes.All" Version="21.1.*-*" />
+    <PackageReference Include="System.Data.OleDB" Version="5.0" />
+  </ItemGroup>
+</Project>

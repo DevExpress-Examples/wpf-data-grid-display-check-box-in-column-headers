@@ -1,6 +1,6 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2012
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DXGrid_ShowCheckBoxInColumnHeaders", "DXGrid_ShowCheckBoxInColumnHeaders\DXGrid_ShowCheckBoxInColumnHeaders.csproj", "{72CC2ABE-8F4C-4A5A-907E-25C5008B9A8F}"
+# Visual Studio 16
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DXGrid_ShowCheckBoxInColumnHeaders", "DXGrid_ShowCheckBoxInColumnHeaders\DXGrid_ShowCheckBoxInColumnHeaders.Net5.csproj", "{72CC2ABE-8F4C-4A5A-907E-25C5008B9A8F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
