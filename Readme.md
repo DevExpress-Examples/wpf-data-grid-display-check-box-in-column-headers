@@ -22,6 +22,7 @@ This example demonstrates how to add a check box to column headers. While the ch
 * [Appearance Customization](https://docs.devexpress.com/WPF/6152/controls-and-libraries/data-grid/appearance-customization)
 * [ColumnBase.HeaderCustomizationAreaTemplate](http://docs.devexpress.com/WPF/DevExpress.Xpf.Grid.ColumnBase.HeaderCustomizationAreaTemplate)
 * [DataViewBase.ColumnHeaderCustomizationAreaTemplate](http://docs.devexpress.com/WPF/DevExpress.Xpf.Grid.DataViewBase.ColumnHeaderCustomizationAreaTemplate)
+* [Selector Column](https://docs.devexpress.com/WPF/17808/controls-and-libraries/data-grid/visual-elements/table-view-elements/selector-column)
 
 ## More Examples
 
