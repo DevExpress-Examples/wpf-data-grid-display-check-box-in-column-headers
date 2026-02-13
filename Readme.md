@@ -29,7 +29,7 @@ This example demonstrates how to add a check box to column headers. While the ch
 * [WPF Data Grid - Display an Image within a Column Header](https://github.com/DevExpress-Examples/how-to-display-an-image-within-a-column-header-e1629)
 * [WPF Data Grid - Display an Icon in an Unbound Column Based on the Value in a Bound Column](https://github.com/DevExpress-Examples/how-to-display-an-icon-in-an-unbound-column-based-on-the-value-stored-in-a-bound-column-e1266)
 <!-- feedback -->
-## Does this example address your development requirements/objectives?
+## Does This Example Address Your Development Requirements/Objectives?
 
 [<img src="https://www.devexpress.com/support/examples/i/yes-button.svg"/>](https://www.devexpress.com/support/examples/survey.xml?utm_source=github&utm_campaign=wpf-data-grid-display-check-box-in-column-headers&~~~was_helpful=yes) [<img src="https://www.devexpress.com/support/examples/i/no-button.svg"/>](https://www.devexpress.com/support/examples/survey.xml?utm_source=github&utm_campaign=wpf-data-grid-display-check-box-in-column-headers&~~~was_helpful=no)
 
